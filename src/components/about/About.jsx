@@ -28,7 +28,7 @@ const About = () => {
             <article className="about__card">
               <FiThumbsUp className="about__icon" />
               <h5>Open For Work</h5>
-              <small>I want to start my career in web development!</small>
+              <small>I am ready to start my career in web development!</small>
             </article>
             <article className="about__card">
               <AiOutlineFolderOpen className="about__icon" />
