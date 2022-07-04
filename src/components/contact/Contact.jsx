@@ -3,8 +3,31 @@ import "./contact.css";
 import { FiMail } from "react-icons/fi";
 import { RiMessengerLine } from "react-icons/ri";
 import { FiTwitter } from "react-icons/fi";
+import { useRef } from "react";
+import emailjs from "emailjs-com";
 
 const Contact = () => {
+  const form = useRef();
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_8dqbpr9",
+        "template_sar23rm",
+        form.current,
+        "2OyuHtGmkPP4WG05o"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+    e.target.reset();
+  };
   return (
     <section id="contact">
       <h5>get in touch</h5>
@@ -50,7 +73,7 @@ const Contact = () => {
           </article>
         </div>
         {/* End of Contact Options */}
-        <form action="">
+        <form ref={form} onSubmit={sendEmail}>
           <input
             type="text"
             name="name"
