@@ -13,7 +13,7 @@ const Contact = () => {
       <div className="container contact__container">
         <div className="contact__options">
           <article className="contact__option">
-            <FiMail />
+            <FiMail className="contact__option-icon" />
             <h4>Email</h4>
             <h5>jakeeissler1@gmail.com</h5>
             <a
@@ -25,7 +25,7 @@ const Contact = () => {
             </a>
           </article>
           <article className="contact__option">
-            <RiMessengerLine />
+            <RiMessengerLine className="contact__option-icon" />
             <h4>Messenger</h4>
             <h5>Jake Eissler</h5>
             <a
@@ -37,7 +37,7 @@ const Contact = () => {
             </a>
           </article>
           <article className="contact__option">
-            <FiTwitter />
+            <FiTwitter className="contact__option-icon" />
             <h4>Twitter</h4>
             <h5>jakeeis24</h5>
             <a
