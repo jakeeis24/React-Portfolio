@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import ME from "../../assets/me-about.jpg";
+import ME from "../../assets/about-me_frogs.jpg";
 import { FaHammer } from "react-icons/fa";
 import { FiThumbsUp } from "react-icons/fi";
 import { AiOutlineFolderOpen } from "react-icons/ai";
@@ -23,7 +23,9 @@ const About = () => {
             <article className="about__card">
               <FaHammer className="about__icon" />
               <h5>Experience</h5>
-              <small>3 month Bootcamp Feb-May 2022</small>
+              <small>Denver University Full Stack Coding Bootcamp</small>
+              <br />
+              <small>January 2022 - May 2022</small>
             </article>
             <article className="about__card">
               <FiThumbsUp className="about__icon" />
@@ -33,15 +35,28 @@ const About = () => {
             <article className="about__card">
               <AiOutlineFolderOpen className="about__icon" />
               <h5>Projects</h5>
-              <small>What should I put here??</small>
+              <small>Scroll down to see my projects!</small>
             </article>
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
-            accusamus illum doloremque laudantium esse eius repudiandae velit
-            voluptate nihil minima sapiente ullam quas, quia commodi. Atque
-            harum illo dicta modi!
+            I am a highly motivated individual looking to break into the tech
+            industry. Taking a coding bootcamp was one of the best decisions I
+            have ever made and it gave me a jumpstart in the right direction!
+          </p>
+          <p>
+            I am looking for a junior web developer role where teamwork and
+            learning are high priorities. I will be the first person to admit I
+            am not an expert in any language, skill, theory, etc. But with the
+            right resources, I know I will be able to make a positive impact on
+            any team.
+          </p>
+          <p>
+            Plaing Division I baseball at an elite baseball college taught me
+            that teamwork is of utmost importance in any environment and that
+            hard work is invaluable. In this next chapter of my life, I am
+            willing to put in the work to become the best developer possible and
+            I cannot wait to see where this journey takes me!
           </p>
 
           <a href="#contact" className="btn btn-primary">

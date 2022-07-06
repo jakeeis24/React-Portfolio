@@ -39,6 +39,7 @@ footer a {
   border-radius: 0.7rem;
   display: flex;
   border: 1px solid transparent;
+  font-size: 1.5rem;
 }
 
 .footer__socials a:hover {
