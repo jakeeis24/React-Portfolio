@@ -1,9 +1,10 @@
 import React from "react";
 import "./footer.css";
-import { FiFacebook } from "react-icons/fi";
+// import { FiFacebook } from "react-icons/fi";
 import { GrInstagram } from "react-icons/gr";
 import { FiTwitter } from "react-icons/fi";
 import { BsGithub } from "react-icons/bs";
+import { BsLinkedin } from "react-icons/bs";
 
 const Footer = () => {
   return (
@@ -37,12 +38,20 @@ const Footer = () => {
 
       <div className="footer__socials">
         <a
+          href="https://www.linkedin.com/in/jake-eissler-3aaa6b190
+"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <BsLinkedin />
+        </a>
+        {/* <a
           href="https://www.facebook.com/jake.eissler/"
           target="_blank"
           rel="noreferrer"
         >
           <FiFacebook />
-        </a>
+        </a> */}
         <a
           href="https://instagram.com/jakeeis24"
           target="_blank"
