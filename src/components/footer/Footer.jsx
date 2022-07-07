@@ -3,6 +3,7 @@ import "./footer.css";
 import { FiFacebook } from "react-icons/fi";
 import { GrInstagram } from "react-icons/gr";
 import { FiTwitter } from "react-icons/fi";
+import { BsGithub } from "react-icons/bs";
 
 const Footer = () => {
   return (
@@ -35,19 +36,34 @@ const Footer = () => {
       </ul>
 
       <div className="footer__socials">
-        <a href="https://facebook.com">
+        <a
+          href="https://www.facebook.com/jake.eissler/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <FiFacebook />
         </a>
-        <a href="https://instagram.com">
+        <a
+          href="https://instagram.com/jakeeis24"
+          target="_blank"
+          rel="noreferrer"
+        >
           <GrInstagram />
         </a>
-        <a href="https://twitter.com">
+        <a
+          href="https://twitter.com/jakeeis24"
+          target="_blank"
+          rel="noreferrer"
+        >
           <FiTwitter />
+        </a>
+        <a href="https://github.com/jakeeis24" target="_blank" rel="noreferrer">
+          <BsGithub />
         </a>
       </div>
 
       <div className="footer__copyright">
-        <small>&copy; EisslerWebDev. All rights reserved.</small>
+        <small>&copy; Jake Eissler. All rights reserved.</small>
       </div>
     </footer>
   );
