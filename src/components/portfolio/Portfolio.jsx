@@ -1,54 +1,33 @@
 import React from "react";
 import "./portfolio.css";
-import IMG1 from "../../assets/portfolio1.jpg";
-import IMG2 from "../../assets/portfolio2.jpg";
-import IMG3 from "../../assets/portfolio3.jpg";
-import IMG4 from "../../assets/portfolio4.jpg";
-import IMG5 from "../../assets/portfolio5.png";
-import IMG6 from "../../assets/portfolio6.jpg";
+import IMG1 from "../../assets/elden_market.jpg";
+import IMG2 from "../../assets/lasso.jpg";
+import IMG3 from "../../assets/pokedex_pic.jpg";
 
 const data = [
   {
+    // elden market
     id: 1,
     image: IMG1,
-    title: "This is project 1",
-    github: "https://github.com/jakeeis24",
-    demo: "https://twitter.com/jakeeis24",
+    title: "Elden Market",
+    github: "https://github.com/bhodge166/eldenMarket",
+    demo: "https://elden-market24new.herokuapp.com/",
   },
   {
+    //lasso roster
     id: 2,
     image: IMG2,
-    title: "This is project 2",
-    github: "https://github.com/jakeeis24",
-    demo: "https://twitter.com/jakeeis24",
+    title: "Lasso Roster",
+    github: "https://github.com/bhodge166/lassoSportsPage",
+    demo: "https://lasso-roster.herokuapp.com/",
   },
   {
+    //pokedex
     id: 3,
     image: IMG3,
-    title: "This is project 3",
-    github: "https://github.com/jakeeis24",
-    demo: "https://twitter.com/jakeeis24",
-  },
-  {
-    id: 4,
-    image: IMG4,
-    title: "This is project 4",
-    github: "https://github.com/jakeeis24",
-    demo: "https://twitter.com/jakeeis24",
-  },
-  {
-    id: 5,
-    image: IMG5,
-    title: "This is project 5",
-    github: "https://github.com/jakeeis24",
-    demo: "https://twitter.com/jakeeis24",
-  },
-  {
-    id: 6,
-    image: IMG6,
-    title: "This is project 6",
-    github: "https://github.com/jakeeis24",
-    demo: "https://twitter.com/jakeeis24",
+    title: "Pokemon TCG Finder",
+    github: "https://github.com/eeoerkeedu/Pokemon_TCG_Finder",
+    demo: "https://eeoerkeedu.github.io/Pokemon_TCG_Finder/",
   },
 ];
 
@@ -67,10 +46,20 @@ const Portfolio = () => {
               </div>
               <h3>{title}</h3>
               <div className="portfolio__item-cta">
-                <a href={github} className="btn" target="_blank">
+                <a
+                  href={github}
+                  className="btn"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   Github
                 </a>
-                <a href={demo} className="btn btn-primary" target="_blank">
+                <a
+                  href={demo}
+                  className="btn btn-primary"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   Live Demo
                 </a>
               </div>
