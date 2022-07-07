@@ -52,7 +52,7 @@ const About = () => {
             any team.
           </p>
           <p>
-            Plaing Division I baseball at an elite baseball college taught me
+            Playing Division I baseball at an elite baseball college taught me
             that teamwork is of utmost importance in any environment and that
             hard work is invaluable. In this next chapter of my life, I am
             willing to put in the work to become the best developer possible and
