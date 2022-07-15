@@ -12,6 +12,7 @@ const data = [
     title: "Elden Market",
     github: "https://github.com/bhodge166/eldenMarket",
     demo: "https://elden-market24new.herokuapp.com/",
+    description: "Explore and save items from the popular video game!",
   },
   {
     //lasso roster
@@ -20,6 +21,7 @@ const data = [
     title: "Lasso Roster",
     github: "https://github.com/bhodge166/lassoSportsPage",
     demo: "https://lasso-roster.herokuapp.com/",
+    description: "Manage the AFC Richmond roster!",
   },
   {
     //pokedex
@@ -28,6 +30,7 @@ const data = [
     title: "Pokemon TCG Finder",
     github: "https://github.com/eeoerkeedu/Pokemon_TCG_Finder",
     demo: "https://eeoerkeedu.github.io/Pokemon_TCG_Finder/",
+    description: "An easy interface for finding Pokemon Cards!",
   },
 ];
 
@@ -38,13 +41,14 @@ const Portfolio = () => {
       <h2>Portfolio</h2>
 
       <div className="container portfolio__container">
-        {data.map(({ id, image, title, github, demo }) => {
+        {data.map(({ id, image, title, github, demo, description }) => {
           return (
             <article key={id} className="portfolio__item">
               <div className="portfolio__item-image">
                 <img src={image} alt={title} />
               </div>
               <h3>{title}</h3>
+              <h5>{description}</h5>
               <div className="portfolio__item-cta">
                 <a
                   href={github}
