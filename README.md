@@ -38,4 +38,6 @@ Any and all contributions, issues, features and tips are welcome.
 
 ### Contact
 
-For any Suggestion / Ideas ping me at [@prateekis1](https://twitter.com/prateekis1)
+Email me at [jakeeissler1@gmail.com](jakeeissler1@gmail.com)
+
+Message me on [Twitter](https://twitter.com/jakeeis24)
