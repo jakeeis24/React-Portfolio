@@ -40,4 +40,4 @@ Any and all contributions, issues, features and tips are welcome.
 
 Email me at [jakeeissler1@gmail.com](mailto:jakeeissler1@gmail.com)
 
-Message me on <a href="https://twitter.com/jakeeis24">Twitter</a>
+Message me on <a href="https://twitter.com/jakeeis24" target="_blank" rel="noopener">Twitter</a>
