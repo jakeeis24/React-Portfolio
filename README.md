@@ -38,6 +38,6 @@ Any and all contributions, issues, features and tips are welcome.
 
 ### Contact
 
-Email me at [jakeeissler1@gmail.com](jakeeissler1@gmail.com)
+Email me at [jakeeissler1@gmail.com](mailto:jakeeissler1@gmail.com)
 
-Message me on [Twitter](https://twitter.com/jakeeis24)
+Message me on <a href="https://twitter.com/jakeeis24">Twitter</a>
